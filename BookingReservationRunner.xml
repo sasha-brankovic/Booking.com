@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Booking" data-provider-thread-count="1">
+    <parameter name="WAIT_TIME" value="60"/>
+    <test name="Sort by price app">
+        <classes>
+<!--            <class name="runners.GeneralRunner"/>-->
+        </classes>
+    </test>
+
+</suite>
