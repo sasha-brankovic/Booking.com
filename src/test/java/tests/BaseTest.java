@@ -8,7 +8,7 @@ import selenium_core.GetDriverManager;
 import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
-    WebDriver driver;
+    public WebDriver driver;
     WebDriverWait wdWait;
     DriverManager driverManager;
 
@@ -17,7 +17,7 @@ public class BaseTest {
         this.driver = driverManager.getWebDriver(browserVersion);
         this.driver.manage().timeouts().implicitlyWait(implicitlyWait, TimeUnit.SECONDS);
     }
-    public void tearDown(){
+    public void quitDriver(){
         driverManager.quiteWebDriver();
     }
 }

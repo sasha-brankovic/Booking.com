@@ -3,9 +3,9 @@
 
 <suite name="Booking" data-provider-thread-count="1">
     <parameter name="WAIT_TIME" value="60"/>
-    <test name="Sort by price app">
+    <test name="Booking Reservation">
         <classes>
-<!--            <class name="runners.GeneralRunner"/>-->
+            <class name="runners.GeneralRunner"/>
         </classes>
     </test>
 
