@@ -1,7 +1,7 @@
 package selenium_core;
 
 public class GetDriverManager {
-    public DriverManager getDriverManager(){
+    public static DriverManager getChromeDriverManager(){
         DriverManager driverManager;
         return driverManager = new ChromeDriverManager();
     }

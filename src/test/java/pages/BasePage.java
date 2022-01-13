@@ -16,6 +16,7 @@ public class BasePage {
     WebDriverWait wdWait;
     String waitTimeExplicit = Reporter.getCurrentTestResult().getTestContext().getCurrentXmlTest().getParameter("WAIT_TIME");
     int waitExplicit = Integer.parseInt(waitTimeExplicit);
+
     public BasePage(WebDriver driver, WebDriverWait wdWait){
         this.driver = driver;
         this.wdWait = wdWait;

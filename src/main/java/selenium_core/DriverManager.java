@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 public abstract class DriverManager {
     WebDriver driver;
     public abstract void createWebDriver(String browserVersion);
+
     public WebDriver getWebDriver(String browserVersion){
         if(driver == null){
             createWebDriver(browserVersion);
