@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
     public WebDriver driver;
-    WebDriverWait wdWait;
+    public WebDriverWait wdWait;
     DriverManager driverManager;
 
     public void init(String browserVersion, int implicitlyWait){
